@@ -1,5 +1,5 @@
 //if,else if ,else
-let nivelDeFome =  100
+let nivelDeFome =  2000
 
 if(nivelDeFome < 1001){
 console.log("voce está no nivel barro")
