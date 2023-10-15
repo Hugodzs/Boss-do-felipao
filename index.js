@@ -1,9 +1,9 @@
 let nomeDoHeroi = "Higão"
-let Experiencia = "mil"
+let Experiencia = 500
 
 switch (Experiencia) {
-    case "mil":
-         console.log(nomeDoHeroi + "está no nivel Ferro");
+    case <=1000:
+         console.log(nomeDoHeroi +  "  está no nivel Ferro" );
     break;
-    
+
 }
