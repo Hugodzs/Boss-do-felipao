@@ -1,8 +1,8 @@
 let nomeDoHeroi = "Higão"
-let Experiencia = 5
+let Experiencia = ""
 
 do {
-  Experiencia = prompt('Digite um número entre 1 e 10:');
+  Experiencia = prompt(5);
 } while(Experiencia < 1 || Experiencia > 10);
 
-console.log(nomeDoHeroi + `Você digitou o número ${numero}.`);
+console.log(nomeDoHeroi + `Você digitou o número ${Experiencia}.`);
