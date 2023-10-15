@@ -1,7 +1,7 @@
-let dia = "terça"; // Você pode mudar isso para outros dias
+let dia = 100; // quantidade de experiencia
 
 switch (dia) {
-  case "segunda":
+  case 100:
     console.log("Dia de começar a semana com energia!");
     break;
   case "terça":
