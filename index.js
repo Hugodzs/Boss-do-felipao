@@ -1,7 +1,7 @@
 
 let nomeHero = "Hugow"
 
-let experiencia = 900
+let experiencia = 1001
 
 
   switch (experiencia) {
@@ -30,5 +30,5 @@ let experiencia = 900
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Maxmil!");
         break;  
      default: 
-     console.log("erro");
+     console.log("não sei o que está acontecendo");
     }
