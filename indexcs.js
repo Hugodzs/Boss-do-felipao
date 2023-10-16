@@ -3,7 +3,7 @@ let nomeHero = "Hugow"
 
 let experiencia = "999"
 
-let ranking
+let ranking = ""
 
   switch (experiencia) {
      case experiencia<=1000: 
