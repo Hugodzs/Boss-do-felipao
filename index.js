@@ -29,6 +29,6 @@ switch (experiencia){
   case (experiencia>=10001):
         ranking = "Radiante"
         break;      
-  default: "erro"
-    ;
+  default: 
+     console.log("erro");
 }
