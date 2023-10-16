@@ -31,6 +31,6 @@ switch (ranking) {
         ranking = "Radiante"
         break;      
   default:
-    ranking = "Invalido";
+    ;
 }
 console.log(nomeHero + " tem " + experiencia + ' pontos de Experiência e está no ranking '+ ranking + "!")
