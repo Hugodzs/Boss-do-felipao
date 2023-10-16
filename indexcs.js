@@ -33,4 +33,4 @@ let ranking
      default: 
         ranking = "Ja era";
     }
-     console.log(nomeHero + "está com " + experiencia + "Pontos de experiencia e está no ranking"+ ranking +"!")
+    console.log(`O Herói com nome de ${nomeHero} está com ${experiencia} nível de XP e está no nível de ${ranking}!`)
