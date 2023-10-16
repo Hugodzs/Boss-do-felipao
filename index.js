@@ -1,7 +1,7 @@
 
 let nomeHero = "Hugow"
 
-let experiencia = 11000
+let experiencia = 900
 
 
 switch (experiencia) {
