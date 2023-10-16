@@ -1,12 +1,12 @@
 
 let nomeHero = "Hugow"
 
-let experiencia = 1001
+let experiencia = 999
 
 
   switch (experiencia) {
      case experiencia<=1000: 
-        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ferro!");
+        console.log("pontos de Experiência e está no ranking Ferro!");
         break;
      case experiencia>=1001 && experiencia<=2000:
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Prata!");
