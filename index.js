@@ -4,7 +4,7 @@ let nomeHero = "Hugow"
 let experiencia = 900
 
 
-switch (experiencia) {
+  switch (experiencia) {
      case experiencia<=1000: 
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ferro!");
         break;
@@ -15,10 +15,10 @@ switch (experiencia) {
        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ouro!");
         break;
      case experiencia>=5001 && experiencia<=7000:
-        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Diamante!")
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Diamante!");
         break;
      case experiencia>=7001 && experiencia<=8000:
-        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Platina!")
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Platina!");
         break;
      case experiencia>=8001 && experiencia<=9000:
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking imortal!");
@@ -31,4 +31,4 @@ switch (experiencia) {
         break;  
      default: 
      console.log("erro");
-}
+    }
