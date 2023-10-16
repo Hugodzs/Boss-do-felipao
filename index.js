@@ -4,7 +4,7 @@ let nomeHero = "Hugow"
 let experiencia = 900
 
 
-switch (experiencia){
+switch (nomeHero) {
   case (experiencia<=1000): 
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ferro!")
         break;
