@@ -5,7 +5,7 @@ let ranking
 
 let experiencia = 1200
 
-switch (ranking) {
+switch (experiencia) {
   case (experiencia<=1000) :
         ranking = "Ferro"
         break;
