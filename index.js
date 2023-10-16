@@ -5,12 +5,12 @@ let experiencia = 900
 
 let ranking
 
-switch (ranking) {
-  case (experiencia<=1000):
-        ranking = "Ferro"
+switch (ranking){
+  case (experiencia<=1000) : {
+        ranking = "Ferro"}
         break;
-  case (experiencia>=1001 && experiencia<=2000):
-        ranking = "Bronze"
+  case (experiencia>=1001 && experiencia<=2000):{
+        ranking = "Bronze"}
         break;
   case (experiencia>=2001 && experiencia<=5000):
         ranking = "Prata"
