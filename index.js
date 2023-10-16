@@ -7,8 +7,8 @@ let experiencia = 1200
 
 switch (ranking) {
   case (experiencia<=1000) :
-    ranking = "Ferro"
-    break;
+        ranking = "Ferro"
+        break;
   case (experiencia>=1001 && experiencia<=2000) :
         ranking = "Bronze"
         break;
