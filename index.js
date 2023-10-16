@@ -1,7 +1,7 @@
 
 let nomeHero = "Hugow"
 
-let experiencia = 50000
+let experiencia = 900
 
 
 switch (experiencia){
@@ -32,4 +32,3 @@ switch (experiencia){
   default: "erro"
     ;
 }
-console.log(nomeHero + " tem " + experiencia + ' pontos de Experiência e está no ranking '+ ranking + "!")
