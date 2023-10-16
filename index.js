@@ -7,10 +7,12 @@ let ranking
 
 switch (ranking){
   case (experiencia<=1000) : {
-        ranking = "Ferro"}
+        ranking = "Ferro"
+}
         break;
   case (experiencia>=1001 && experiencia<=2000):{
-        ranking = "Bronze"}
+        ranking = "Bronze"
+     }
         break;
   case (experiencia>=2001 && experiencia<=5000):
         ranking = "Prata"
@@ -30,7 +32,7 @@ switch (ranking){
   case (experiencia>=10001):
         ranking = "Radiante"
         break;      
-  default:
+  default: "erro"
     ;
 }
 console.log(nomeHero + " tem " + experiencia + ' pontos de Experiência e está no ranking '+ ranking + "!")
