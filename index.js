@@ -3,9 +3,9 @@ let nomeHero = "Hugow"
 
 let ranking
 
-let experiencia = 1200
+let experiencia = 900
 
-switch (experiencia) {
+switch (ranking) {
   case (experiencia<=1000) :
         ranking = "Ferro"
         break;
