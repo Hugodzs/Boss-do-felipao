@@ -9,25 +9,25 @@ switch (nomeHero) {
         console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ferro!")
         break;
   case (experiencia>=1001 && experiencia<=2000):
-        ranking = "Bronze"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Prata!")
         break;
   case (experiencia>=2001 && experiencia<=5000):
-        ranking = "Prata"
+       console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ouro!")
         break;
   case (experiencia>=5001 && experiencia<=7000):
-        ranking = "Ouro"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Diamante!")
         break;
   case (experiencia>=7001 && experiencia<=8000):
-        ranking = "Platina"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Platina!")
         break;
   case (experiencia>=8001 && experiencia<=9000):
-        ranking = "Ascendente"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking imortal!")
         break;  
   case (experiencia>=9001 && experiencia<=10000):
-        ranking = "Imortal"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Master!")
         break; 
   case (experiencia>=10001):
-        ranking = "Radiante"
+        console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Maxmil!")
         break;      
   default: 
      console.log("erro");
