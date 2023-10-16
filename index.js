@@ -3,16 +3,13 @@ let nomeHero = "Hugow"
 
 let experiencia = 50000
 
-let ranking
 
-switch (ranking){
-  case (experiencia<=1000): {
-        ranking = "Ferro"
-}
+switch (experiencia){
+  case (experiencia<=1000): 
+  console.log(nomeHero + " tem " + experiencia + "pontos de Experiência e está no ranking Ferro!")
         break;
-  case (experiencia>=1001 && experiencia<=2000):{
+  case (experiencia>=1001 && experiencia<=2000):
         ranking = "Bronze"
-}
         break;
   case (experiencia>=2001 && experiencia<=5000):
         ranking = "Prata"
