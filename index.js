@@ -1,9 +1,9 @@
 
 let nomeHero = "Hugow"
 
-let ranking
-
 let experiencia = 900
+
+let ranking
 
 switch (ranking) {
   case (experiencia<=1000) :
