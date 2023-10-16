@@ -33,4 +33,4 @@ switch (ranking) {
   default:
     console.log("Digite um valor válido de Experiencia");
 }
-console.log(nomeHero + "tem" + experiencia + 'pontos de Experiência e está no ranking'+ ranking!)
+console.log(nomeHero + "tem" + experiencia + 'pontos de Experiência e está no ranking'+ ranking + "!")
