@@ -18,18 +18,19 @@ switch (ranking) {
   case (experiencia>=5001 && experiencia<=7000) :
         ranking = "Ouro"
         break;
-  case (experiencia<=1001) :
+  case (experiencia>=7001 && experiencia<=8000) :
         ranking = "Platina"
         break;
-  case (experiencia<=1001) :
+  case (experiencia>=8001 && experiencia<=9000) :
         ranking = "Ascendente"
         break;  
-  case (experiencia<=1001) :
+  case (experiencia>=9001 && experiencia<=10000) :
         ranking = "Imortal"
         break; 
-  case (experiencia<=1001) :
+  case (experiencia>=10001) :
         ranking = "Radiante"
         break;      
   default:
-    console.log("Final de semana! Descanse e divirta-se!");
+    console.log("Digite um valor válido de Experiencia");
 }
+console.log(nomeHero + "tem" + experiencia + 'pontos de Experiência e está no ranking'+ ranking!)
