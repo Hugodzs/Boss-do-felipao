@@ -1,7 +1,7 @@
 
 let nomeHero = "Hugow"
 
-let experiencia = 900
+let experiencia = 1000
 
 let ranking
 
