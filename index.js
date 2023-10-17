@@ -1,10 +1,13 @@
-//if,else if ,else
-let nivelDeFome =  2000
+//variaveis
+let nameHero = "Hugo"
 
-if(nivelDeFome < 1001){
-console.log("voce está no nivel barro")
-}else if(nivelDeFome >=1001){
-console.log("muita fome")
-}else{
-console.log("Você comeria mais que o pica pau")
+let experiencia = "1100"
+
+if(experiencia <= "1200" ){
+    console.log(nameHero + "Você esta ranking Ferro")
+}
+else if(experiencia >"1200" && experiencia <="2000"){
+    console.log(nameHero + "Está no ranking Prata")     
+}
+else{console.log("Digite um valor válido")
 }
