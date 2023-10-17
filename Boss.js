@@ -1,7 +1,7 @@
 //variaveis
 let nameHero = "Hugo"
 
-let experiencia = "9300"
+let experiencia = "5000"
 
 if(experiencia <= "1000" ){
     console.log(nameHero + " Tem "+ experiencia + " pontos de Experiência e está no ranking Ferro")

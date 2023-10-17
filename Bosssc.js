@@ -1,7 +1,7 @@
-
+// nao consegui rodar com o switch case =()
 let nomeHero = "Hugow"
 
-let experiencia = "8000"
+let experiencia = "1000"
 
 let ranking
 
@@ -33,4 +33,4 @@ let ranking
      default: 
         ranking = "Ja era";
     }
-    console.log(`O Herói com nome de ${nomeHero} está com ${experiencia} nível de XP e está no nível de ${ranking}!`)
+    console.log(` ${nomeHero} está com ${experiencia} pontos de Experiência e está no ranking ${ranking}!`)
